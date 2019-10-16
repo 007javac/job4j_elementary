@@ -5,6 +5,7 @@
 *.swp
 *.out
 *.log
+*.idea
 
 # rails specific
 *.sqlite3
@@ -72,4 +73,4 @@ jrebel.lic
 build
 .gradle
 *.pid
-.gitignore
+.idea
