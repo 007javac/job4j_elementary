@@ -1,3 +1,5 @@
+package ru.job4j.calculator;
+
 public class Converter {
 
     public static int rubleToEuro(int value) {

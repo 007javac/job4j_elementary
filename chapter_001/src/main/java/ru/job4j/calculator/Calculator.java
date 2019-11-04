@@ -1,3 +1,5 @@
+package ru.job4j.calculator;
+
 public class Calculator {
     public static void add(int first, int second) {
         int result = first + second;
