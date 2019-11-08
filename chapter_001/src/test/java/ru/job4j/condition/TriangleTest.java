@@ -11,8 +11,8 @@ public class TriangleTest {
         assertThat(result, is(true));
     }
     @Test
-    public void whenNoExist() {
-        boolean result = Triangle.noexist(1.0, 5.0, 10.0);
+    public void Exist() {
+        boolean result = Triangle.exist(1.0, 5.0, 10.0);
         assertThat(result, is(false));
     }
 }
