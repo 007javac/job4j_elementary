@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e448e7c3-86b3-4888-b942-185b76a1d618" name="Default Changelist" comment="4.3. А существует ли треугольник?">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/condition/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/condition/Triangle.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1T9FAUMbVV4NYtf2Lk2uq2fgLug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.job4j.loop" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.job4j.calculator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TriangleTest">
+    <configuration name="DummyBotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax1To2Then1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax1To2Then1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax1To2Then2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax1To2Then2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.MaxTest" />
+        <item itemvalue="JUnit.MaxTest.whenMax1To2Then1" />
+        <item itemvalue="JUnit.MaxTest.whenMax1To2Then2" />
+        <item itemvalue="JUnit.DummyBotTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e448e7c3-86b3-4888-b942-185b76a1d618" name="Default Changelist" comment="" />
+      <created>1572864267709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572864267709</updated>
+      <workItem from="1572864283612" duration="924000" />
+      <workItem from="1572866164815" duration="488000" />
+      <workItem from="1572866786280" duration="2096000" />
+      <workItem from="1572947494514" duration="9783000" />
+      <workItem from="1572989054948" duration="8954000" />
+      <workItem from="1573072648755" duration="10429000" />
+      <workItem from="1573126428209" duration="6226000" />
+      <workItem from="1573208396725" duration="1678000" />
+    </task>
+    <task id="LOCAL-00001" summary="refactor">
+      <created>1572864555986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572864555986</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4.2. Максимум из двух чисел">
+      <created>1572992515790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572992515790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4.3. А существует ли треугольник?">
+      <created>1573080313656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573080313656</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4.3. А существует ли треугольник?">
+      <created>1573208755029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573208755029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <MESSAGE value="4.2. Максимум из двух чисел" />
+    <MESSAGE value="4.3. А существует ли треугольник?" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.3. А существует ли треугольник?" />
+  </component>
+</project>
