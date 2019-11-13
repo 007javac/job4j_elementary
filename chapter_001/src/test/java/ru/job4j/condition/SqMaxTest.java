@@ -29,5 +29,10 @@ public class SqMaxTest {
         int result = check.max(9, 7, 4, 50);
         assertThat(result, is(50));
     }
-
+    @Test
+    public void whenMax() {
+        SqMax check = new SqMax();
+        int result = check.max(9, 7, 14, 50);
+        assertThat(result, is(50));
+    }
 }
