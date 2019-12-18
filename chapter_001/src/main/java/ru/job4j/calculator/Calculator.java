@@ -1,6 +1,21 @@
 package ru.job4j.calculator;
 
+/**
+ * Calculator.
+ *
+ * @author Karamyshev Iurii (007it@libero.it);
+ * @since 18.12.2019;
+ * @version 1;
+ */
 public class Calculator {
+
+    /**
+     * Add - Слщжение.
+     *
+     * @param first - первый аргумент;
+     * @param second - второй аргумент;
+     * @return результат сложения;
+     */
     public static void add(int first, int second) {
         int result = first + second;
         System.out.println(first + "+" + second + " = " + result);
@@ -17,6 +32,12 @@ public class Calculator {
         int result = first - second;
         System.out.println(first + "-" + second + " = " + result);
     }
+
+    /**
+     *
+     * Main.
+     * @param args - args;
+     */
     public static void main(String[] args){
         add(1,1);
         div(4,2);
