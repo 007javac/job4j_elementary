@@ -18,8 +18,8 @@ public class SwitchArrayNextTest {
     @Test
     public void whenSwap0to5() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int[] expect = {4, 2, 3, 6, 1, 5};
-        int[] rsl = SwitchArrayNext.swap(input, 0, input.length - 1);
-        assertThat(rsl, is(expect));
+        int[] expectArray = {6, 2, 3, 4, 5, 1};
+        int[] rslArray = SwitchArrayNext.swap(input, 0, input.length - 1);
+        assertThat(rslArray, is(expectArray));
     }
 }
