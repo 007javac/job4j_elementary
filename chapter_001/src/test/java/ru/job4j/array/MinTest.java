@@ -8,12 +8,7 @@ import static org.junit.Assert.assertThat;
 public class MinTest {
     @Test
     public void whenFirstMin() {
-        assertThat(
-                Min.findMin(
-                        new int[] {0, 5, 10}
-                ),
-                is(0)
-        );
+        assertThat(Min.findMin(new int[] {0, 5, 10}), is(0));
     }
 
     @Test
