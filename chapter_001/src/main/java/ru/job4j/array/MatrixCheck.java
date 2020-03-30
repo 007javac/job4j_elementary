@@ -13,4 +13,17 @@ public class MatrixCheck {
         }
         return result;
     }
+    /*
+    метод, который проверяет, чтобы все элементы в колонке были заполнены символом 'X'.
+     */
+    public static boolean monoVertical(char[][] board, int column) {
+        boolean result = true;
+        for (int index = 0; index < board.length; index++) {
+            if (board[index][column] != 'X') {
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
 }
