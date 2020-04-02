@@ -26,4 +26,14 @@ public class MatrixCheck {
         }
         return result;
     }
+    /*
+    Заполнили одномерный массив элементами диагонали из двухмерного массива.
+     */
+    public static char[] extractDiagonal(char[][] board) {
+        char[] rsl = new char[board.length];
+        for (int index = 0; index < board.length; index++) {
+            rsl[index] = board[index][index];
+        }
+        return rsl;
+    }
 }
