@@ -36,4 +36,18 @@ public class MatrixCheck {
         }
         return rsl;
     }
+    /*
+    Метод, который проверяет, находится ли на поле выигрышная ситуация.
+    (код проверки выигрышной ситуации в игре сокобан)
+     */
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int index = 0; index < board.length; index++) {
+            if (monoHorizontal(board, index) || monoVertical(board, index)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
 }
