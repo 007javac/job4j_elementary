@@ -20,6 +20,7 @@ public class Calculator {
         int result = first + second;
         System.out.println(first + "+" + second + " = " + result);
     }
+
     public static void div(int first, int second) {
         int result = first / second;
         System.out.println(first + "/" + second + " = " + result);
@@ -42,6 +43,6 @@ public class Calculator {
         add(1,1);
         div(4,2);
         multiply(2,1);
-        subtract(10,5);
+        subtract(10,                                                                5);
     }
 }
