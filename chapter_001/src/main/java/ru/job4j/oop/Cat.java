@@ -2,7 +2,7 @@ package ru.job4j.oop;
 /**
  * Класс Cat.
  * @author Karamyshev Iurii (007it@libero.it).
- * @since 04.06.2020.
+ * @since 04/06/2020.
  * @version 1
  */
 public class Cat {
