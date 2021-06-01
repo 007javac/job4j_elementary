@@ -1,33 +1,29 @@
 package ru.job4j.pojo;
 
+import static org.hamcrest.Matchers.nullValue;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.Matchers.is;
+
 import org.junit.Test;
 
 public class ShopDropTest {
     @Test
-    public void whenLastNull() {
-        Product[] products = new Product[5];
+    public void whenDropFirst() {
+        Product[] products = new Product[2];
         products[0] = new Product("Milk", 10);
         products[1] = new Product("Bread", 4);
-        products[2] = new Product("Egg", 19);
-        int rsl = Shop.indexOfNull(products);
-        assertThat(rsl, is(3));
+        Product[] rsl = ShopDrop.delete(products, 0);
+        assertThat(rsl[0].getName(), is("Bread"));
+        assertThat(rsl[1], is(nullValue()));
     }
 
     @Test
-    public void whenFirstNull() {
-        Product[] products = new Product[5];
-        products[1] = new Product("Milk", 10);
-        int rsl = Shop.indexOfNull(products);
-        assertThat(rsl, is(0));
-    }
-
-    @Test
-    public void whenHasNotNull() {
-        Product[] products = new Product[1];
+    public void whenDropLast() {
+        Product[] products = new Product[2];
         products[0] = new Product("Milk", 10);
-        int rsl = Shop.indexOfNull(products);
-        assertThat(rsl, is(-1));
+        products[1] = new Product("Bread", 4);
+        Product[] rsl = ShopDrop.delete(products, 1);
+        assertThat(rsl[0].getName(), is("Milk"));
+        assertThat(rsl[1], is(nullValue()));
     }
 }
