@@ -10,8 +10,9 @@ public class Calculator {
      * Add - Слщжение.
      * @param first - первый аргумент.
      * @param second - второй аргумент.
-     * @return результат сложения
+     * @return результат сложенияю
      */
+
     public static void add(int first, int second) {
         int result = first + second;
         System.out.println(first + "+" + second + " = " + result);
