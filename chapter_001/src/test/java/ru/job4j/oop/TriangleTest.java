@@ -1,10 +1,12 @@
 package ru.job4j.oop;
 
-import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Assert;
+import ru.job4j.max.oop.Point;
+import ru.job4j.max.oop.Triangle;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.closeTo;
-import static org.junit.Assert.assertThat;
 
 public class TriangleTest {
 

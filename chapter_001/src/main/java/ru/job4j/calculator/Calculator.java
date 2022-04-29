@@ -7,7 +7,7 @@ package ru.job4j.calculator;
  */
 public class Calculator {
     /**
-     * Add - Слщжение.
+     * Add - Сложение.
      * @param first - первый аргумент.
      * @param second - второй аргумент.
      * @return результат сложения

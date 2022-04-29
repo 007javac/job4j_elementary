@@ -1,4 +1,4 @@
-package ru.job4j.oop;
+package ru.job4j.max.oop;
 
 public class Triangle {
     private Point first;
@@ -27,7 +27,6 @@ public class Triangle {
         double c = second.distance(third);
         double p = period(a, b, c);
         if (this.exist(a, b, c)) {
-            /* написать формулу для расчета площади треугольника. */
             rsl = Math.sqrt(p * (p - a) * (p - b) * (p - c));
         }
         return rsl;

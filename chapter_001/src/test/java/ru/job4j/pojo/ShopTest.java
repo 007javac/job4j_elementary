@@ -1,10 +1,9 @@
 package ru.job4j.pojo;
 
-import static org.junit.Assert.assertThat;
-import static org.hamcrest.Matchers.is;
 import org.junit.Test;
-import ru.job4j.pojo.Product;
-import ru.job4j.pojo.Shop;
+
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ShopTest {
     @Test

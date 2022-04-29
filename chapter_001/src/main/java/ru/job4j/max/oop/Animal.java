@@ -1,4 +1,4 @@
-package ru.job4j.oop;
+package ru.job4j.max.oop;
 /**
  * Animal наследует класс Predator.
  * @author Karamyshev Iurii (007it@libero.it).
