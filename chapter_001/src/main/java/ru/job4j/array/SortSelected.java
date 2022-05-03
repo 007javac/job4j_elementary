@@ -9,13 +9,6 @@ package ru.job4j.array;
  */
 
 public class SortSelected {
-
-    /**
-     * Method sort сортирует массив по возрастанию методом выборки
-     * @param data массив чисел, который нужно отсортировать по возрастанию
-     * @return возвращаем отсортированый по возрастанию массив int[]
-     */
-
     public static int[] sort(int[] data) {
         for (int i = 0; i < data.length; i++) {
             int min = MinDiapason.findMin(data, i, data.length - 1);

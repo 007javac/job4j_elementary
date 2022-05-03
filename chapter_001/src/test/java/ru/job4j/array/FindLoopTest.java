@@ -2,7 +2,7 @@ package ru.job4j.array;
 
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class FindLoopTest {
 
@@ -16,9 +16,6 @@ public class FindLoopTest {
         assertThat(result, is(expect));
     }
 
-    /**
-     * Проверяет индекс элемента массива  со значением 10, значение отсутствует, результат -1(Тестирование).
-     */
     @Test
     public void whenArrayHas10ThenMinusOne() {
         FindLoop find = new FindLoop();

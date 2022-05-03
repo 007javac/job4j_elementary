@@ -6,12 +6,6 @@ package ru.job4j.oop;
  * @version 1
  */
 public class Jukebox {
-    /**
-     * метода music.
-     * метода main.
-     * вывод на консоль результата, в зависимости от position.
-     * вызов метода music у объекта jukebox
-     */
     public void music(int position) {
         if(position == 1) {
             System.out.println("Пусть бегут неуклюже");
