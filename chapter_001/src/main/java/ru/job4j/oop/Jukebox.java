@@ -1,4 +1,4 @@
-package ru.job4j.max.oop;
+package ru.job4j.oop;
 /**
  * Класс Jukebox.
  * @author Karamyshev Iurii (007it@libero.it).

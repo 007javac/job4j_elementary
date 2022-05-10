@@ -1,4 +1,4 @@
-package ru.job4j.max.oop;
+package ru.job4j.oop;
 
 public class Pioneer {
     public void kill(Wolfff wolf) {

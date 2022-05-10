@@ -2,7 +2,7 @@ package ru.job4j.array;
 
 import org.junit.Test;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class TurnTest {
     @Test
@@ -16,7 +16,6 @@ public class TurnTest {
 
     @Test
     public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
-        //напишите здесь тест, проверяющий переворот массива с нечётным числом элементов, например {1, 2, 3, 4, 5}.
         Turn turner = new Turn();
         int[] input = new int[] {1, 2, 3, 4, 5};
         int[] resultArray = turner.back(input);

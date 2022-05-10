@@ -1,20 +1,20 @@
-package ru.job4j.max.oop;
+package ru.job4j.oop;
 /**
- * Tiger.
+ * Animal наследует класс Predator.
  * @author Karamyshev Iurii (007it@libero.it).
  * @since 19.05.2020.
  * @version 1
  */
-public class Tiger {
+public class Animal extends Predator {
     /**
      * вызов конструктора родительского класса.
      * вывод на консоль имени класс
      */
-    public Tiger() {
+    public Animal() {
         super();
-        System.out.println("load Tiger");
+        System.out.println("load Animal");
     }
     public static void main(String[] args) {
-        Tiger Tiger = new Tiger();
+        Animal Animal = new Animal();
     }
 }
