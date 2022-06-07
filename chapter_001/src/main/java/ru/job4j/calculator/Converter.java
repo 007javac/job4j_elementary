@@ -6,13 +6,6 @@ package ru.job4j.calculator;
  * @version 1
  */
 public class Converter {
-    /**
-     * @param rubleToEuro - первый метод.
-     * @param euroToRuble - второй метод.
-     * @param rubleToDollar - третьий  метод.
-     * @param dollarToRuble - четвёртый метод.
-     * @return результат перевода валюты
-     */
     public static int rubleToEuro(int value) {
         return value / 70;
     }

@@ -6,10 +6,6 @@ package ru.job4j.oop;
  * @version 1
  */
 public class Predator extends Tiger {
-    /**
-     * вызов конструктора родительского класса.
-     * вывод на консоль имени класс
-     */
     public Predator() {
         super();
         System.out.println("load Predator");

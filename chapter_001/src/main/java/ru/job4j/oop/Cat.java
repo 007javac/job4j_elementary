@@ -6,12 +6,6 @@ package ru.job4j.oop;
  * @version 1
  */
 public class Cat {
-    /**
-     * метода giveNick выводит на консоль имя кота.
-     * метода show выводит на консоль содержимое полей name и food.
-     * метода eat записывает в поле обьекта данные.
-     * вывод на консоль результатов
-     */
     private String food;
     private String name;
 

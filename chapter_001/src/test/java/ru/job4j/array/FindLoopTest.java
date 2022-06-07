@@ -16,9 +16,6 @@ public class FindLoopTest {
         assertThat(result, is(expect));
     }
 
-    /**
-     * Проверяет индекс элемента массива  со значением 10, значение отсутствует, результат -1(Тестирование).
-     */
     @Test
     public void whenArrayHas10ThenMinusOne() {
         FindLoop find = new FindLoop();

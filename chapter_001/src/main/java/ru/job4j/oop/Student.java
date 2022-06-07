@@ -6,11 +6,6 @@ package ru.job4j.oop;
  * @version 1
  */
 public class Student {
-    /**
-     * два метода music и song.
-     * метода main.
-     * объект класса Student с переменной petya
-     */
     public void music() {
         System.out.println("Tra tra tra");
     }

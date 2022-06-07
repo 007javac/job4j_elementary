@@ -3,15 +3,15 @@ package ru.job4j.array;
 public class Defragment {
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
-            if (array[index] == null) {                 // если ячейка пустая.
-                int count = index + 1;                  // то начнем со следующей.
-                while (count < array.length) {          // пока не дойдем до конца массива.
-                    if (array[count] != null) {         // если нашли не пустую.
-                        array[index] = array[count];    //то заменяем их местами.
+            if (array[index] == null) {
+                int count = index + 1;
+                while (count < array.length) {
+                    if (array[count] != null) {
+                        array[index] = array[count];
                         array[count] = null;
                         break;
                     }
-                   count++; //если же не нашли, то движемся к сдедующей.
+                   count++;
                 }
             }
             System.out.print(array[index] + " ");
