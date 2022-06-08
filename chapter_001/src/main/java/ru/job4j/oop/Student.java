@@ -5,7 +5,6 @@ package ru.job4j.oop;
  * @since 20.05.2020.
  * @version 1
  */
-
 public class Student {
     public void music() {
         System.out.println("Tra tra tra");
