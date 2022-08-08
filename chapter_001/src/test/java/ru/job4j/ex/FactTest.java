@@ -10,7 +10,9 @@ class FactTest {
     public void whenException() {
         IllegalArgumentException exception = assertThrows(
                 IllegalArgumentException.class,
-                () -> new Fact().calc(-1));
+                () -> {
+                    new Fact().calc(-1);
+                });
         assertThat(exception.getMessage()).isEqualTo("N could not be less then 0");
     }
 }
