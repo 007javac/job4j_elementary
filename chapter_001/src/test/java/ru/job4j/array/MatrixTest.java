@@ -30,6 +30,6 @@ public class MatrixTest {
                 {6, 12, 18, 24, 30, 36, 42},
                 {7, 14, 21, 28, 35, 42, 49},
         };
-        assertThat (table, is(expect));
+        assertThat(table, is(expect));
     }
 }

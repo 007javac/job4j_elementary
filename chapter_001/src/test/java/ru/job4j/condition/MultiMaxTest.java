@@ -14,7 +14,7 @@ public class MultiMaxTest {
     @Test
     public void whenFirstMax() {
         MultiMax check = new MultiMax();
-        int result = check.max (5, 4, 3);
+        int result = check.max(5, 4, 3);
         assertThat(result, is(5));
     }
     @Test

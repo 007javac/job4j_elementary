@@ -24,7 +24,8 @@ public class Store {
         for (int index = 0; index < prods.length; index++) {
             Product pr = prods[index];
             if (pr.getCount() > 10) {
-                System.out.println(pr.getName() + " - " + pr.getCount()); }
+                System.out.println(pr.getName() + " - " + pr.getCount());
+            }
         }
     }
 }

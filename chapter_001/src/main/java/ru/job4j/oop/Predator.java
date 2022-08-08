@@ -11,6 +11,6 @@ public class Predator extends Tiger {
         System.out.println("load Predator");
     }
     public static void main(String[] args) {
-        Predator Predator = new Predator();
+        Predator predator = new Predator();
     }
 }

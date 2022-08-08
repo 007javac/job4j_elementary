@@ -12,6 +12,6 @@ public class Tiger {
         System.out.println("load Tiger");
     }
     public static void main(String[] args) {
-        Tiger Tiger = new Tiger();
+        Tiger tiger = new Tiger();
     }
 }
