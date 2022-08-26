@@ -11,7 +11,7 @@ public class UserStore {
             }
         }
         if (user == null) {
-            throw new UserNotFoundException("Username is not found");
+             throw new UserNotFoundException("Username is not found");
         }
         return user;
     }
