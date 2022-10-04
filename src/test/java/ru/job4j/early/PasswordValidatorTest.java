@@ -46,4 +46,14 @@ public class PasswordValidatorTest {
                 () -> PasswordValidator.validate("Password1"));
         assertThat(exception.getMessage()).isEqualTo("Your password must contain at least one special symbol");
     }
+
+    @Test
+    public void whenNotContainSubStrings() {
+        IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> PasswordValidator.validate("Pass#+=?12345@"));
+        assertThat(exception.getMessage()).isEqualTo("The password does not contain case-insensitive substrings:"
+                +
+                " \"qwerty\", \"12345\", \"password\", \"admin\", \"user\"");
+    }
 }

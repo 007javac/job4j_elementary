@@ -1,5 +1,4 @@
 package ru.job4j.early;
-
 import static java.lang.Character.*;
 
 public class PasswordValidator {
@@ -36,6 +35,14 @@ public class PasswordValidator {
         }
         if (rsl == 0) {
             throw new IllegalArgumentException("Your password must contain at least one special symbol");
+        }
+        String[] subString = {"qwerty", "12345", "password", "admin", "user"};
+        for (String str : subString) {
+            if (password.toLowerCase().contains(str)) {
+                throw new IllegalArgumentException("The password does not contain case-insensitive substrings:"
+                        +
+                        " \"qwerty\", \"12345\", \"password\", \"admin\", \"user\"");
+            }
         }
         return password;
     }
